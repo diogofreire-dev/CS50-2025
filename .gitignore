@@ -1,0 +1,74 @@
+# CS50 Specific
+# Compiled C programs
+*.exe
+a.out
+*.out
+
+# Object files
+*.o
+*.obj
+
+# C50 library files (if using CS50 IDE)
+cs50.h
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# CSV files with sensitive data (for DNA problem set)
+sequences/
+databases/*.csv
+
+# Web development
+node_modules/
+.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Large media files (screenshots should be small)
+*.mov
+*.mp4
+*.avi
+
+# Don't ignore small images for documentation
+!screenshots/*.png
+!screenshots/*.jpg
+!screenshots/*.gif
+
+# Week specific ignores
+week-4-memory/images/
+week-5-data-structures/large.txt
